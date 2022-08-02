@@ -8,7 +8,7 @@
  * Check if num[0] > num[1] //true
  * then temp = 2
  * then num[0] = num[1] // num[0] = 1
- * then num[1] = 2
+ * then num[1] = temp // num[1] = 2
  *
  *
  */
