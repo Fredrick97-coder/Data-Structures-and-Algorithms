@@ -26,3 +26,5 @@ function maxDifference(arr) {
 }
 
 console.log(maxDifference(scores));
+
+console.log();
