@@ -1,8 +1,11 @@
 //If num[0] > num[1], then we store temporarily num[0],
 //then we assign num[1] to num[0],(thus num[1] -> num[0])
 //then  we assign again temp to num[1], (thus temp -> num[j])
+//
+
 /**
- * Example num[] = {2,1,3,4}
+ *
+ * Example num[] = {2, 1, 3, 4}
  * num[0] = 2
  * num[1] = 1
  * Check if num[0] > num[1] //true
@@ -11,6 +14,7 @@
  * then num[1] = temp // num[1] = 2
  * now new array // {1,2,3,4}
  * worst time complexity is O(n^2)
+ *
  */
 
 const num = [3, 17, 0, 14, 19, 16];
