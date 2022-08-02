@@ -9,8 +9,8 @@
  * then temp = 2
  * then num[0] = num[1] // num[0] = 1
  * then num[1] = temp // num[1] = 2
- *
- *
+ * now new array // {1,2,3,4}
+ * worst time complexity is O(n^2)
  */
 
 const num = [3, 17, 0, 14, 19, 16];
@@ -22,6 +22,12 @@ for (let i = 0; i < num.length; i++) {
       temp = num[i];
       num[i] = num[j];
       num[j] = temp;
+      console.log(`This is iteration: ${i} -> ${num[i]}  && ${num[j]}`);
+      //first iteration: {0,17,3,14,19,16} //0&3
+      //second iteration: {0,3,17,14,19,16} //3&17
+      //third iteration: {0,3,14,17,19,16} //14&17
+      //fourth iteration: {0,3,14,16,19,17} //16&17
+      //fifth iteration: {0,3,14,16,17,19} //17&19
     }
   }
 }
