@@ -1,4 +1,4 @@
-class Numbers {
+class Student {
   age: number;
   name: string;
 
@@ -13,7 +13,11 @@ class Numbers {
     }
     return `${this.name}, just logged in to Sexy nudity city`;
   }
+  setName(person: string) {
+    this.name = person;
+  }
 }
 
-let numbers = new Numbers(31, 'Yaw');
-console.log(numbers.getAge());
+let student = new Student(31, 'Yaw');
+student.setName('Franklin');
+console.log(student.getAge());
