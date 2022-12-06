@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
- printf("Hello World!\n");
+ puts("This is the start of an epic journey\n");
  return 0;
 }

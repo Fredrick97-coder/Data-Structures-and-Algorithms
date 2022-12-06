@@ -1,4 +1,4 @@
-const person = ['John', 'Doe', 'sallah'];
+const person = ["John", "Doe", "sallah"];
 
 function checkPerson(name) {
   if (person.includes(name)) {
@@ -8,5 +8,5 @@ function checkPerson(name) {
   }
 }
 
-console.log(`Fist check: ${checkPerson('John')}`);
-console.log(`Second check ${checkPerson('Fred')}`);
+console.log(`Fist check: ${checkPerson("John")}`);
+console.log(`Second check ${checkPerson("Fred")}`);
