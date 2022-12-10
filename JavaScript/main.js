@@ -1,15 +1,18 @@
 function findDigits(n) {
   let count = 0;
-  let digits = n.toString();
+  let digits = n.toString().split("");
+  console.log(digits);
   for (let i = 0; i < digits.length; i++) {
     if (n % digits[i] === 0) {
       count++;
+    } else {
+      console.log(`${digits[i]} is not divisible`);
     }
   }
   return count;
 }
 
-console.log(findDigits(124));
+console.log(findDigits(123));
 
 // function findDigits(n) {
 //   let count = 0;
@@ -25,16 +28,3 @@ console.log(findDigits(124));
 // }
 
 // console.log(findDigits(124));
-
-function viralAdvertising(n) {
-  let people = 5;
-  let likes = 0;
-  for (let i = 0; i < n; i++) {
-    let half = Math.floor(people / 2);
-    likes += half;
-    people = half * 3;
-  }
-  return likes;
-}
-
-console.log(viralAdvertising(3));
