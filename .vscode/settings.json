@@ -69,5 +69,10 @@
   "[cpp]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
-  "C_Cpp.errorSquiggles": "Disabled"
+  "C_Cpp.errorSquiggles": "Disabled",
+  "files.associations": {
+    "ostream": "cpp",
+    "string": "cpp",
+    "iostream": "cpp"
+  }
 }
