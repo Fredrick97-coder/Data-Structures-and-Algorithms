@@ -72,7 +72,10 @@
   "C_Cpp.errorSquiggles": "Disabled",
   "files.associations": {
     "ostream": "cpp",
+<<<<<<< HEAD
     "string": "cpp",
+=======
+>>>>>>> refs/remotes/origin/master
     "iostream": "cpp"
   }
 }
